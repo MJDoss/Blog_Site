@@ -1,0 +1,45 @@
+form {
+    position: relative;
+    margin: auto;
+    top: 35%;
+    width: 50%;
+    border: 3px solid #eef1ff;
+    border-radius: 15px 50px;
+    background: #eef1ff;
+    padding: 20px;
+    max-width: 35rem;
+    min-width: 400px;
+    
+	letter-spacing: 1px;
+	color: #302c33;
+  }
+
+label{
+    text-align: right;
+    font-size: 24px;
+    font-family: monospace, serif;
+}
+
+input {
+      width: 100%;
+      padding: 14px 16px;
+      border: 10px solid #eef1ff;
+      border-radius: 15px;
+      background: transparent;
+      color: #fff;
+      font-family: monospace, serif;
+      letter-spacing: 0.05em;
+      font-size: 16px;
+}
+
+body {
+	margin: 0;
+	font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+	background: #3b4465;
+}
+
+.button{
+    border: 12px;
+	background-color: aquamarine;
+    color: #3b4465;
+}
