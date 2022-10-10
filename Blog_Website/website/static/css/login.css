@@ -1,0 +1,78 @@
+form {
+    position: absolute;
+	text-align: center;
+    margin: auto;
+    top: 50%;
+	left: 50%;
+    width: 50%;
+    border: 3px solid #302c33;
+    border-radius: 50px;
+    background: #302c33;
+    padding: 20px;
+    max-width: 35rem;
+    min-width: 400px;
+    transform: translate(-50%,-50%);
+	letter-spacing: 1px;
+	color: #302c33;
+  }
+
+h3{
+	font: Arial;
+	font-size: 2em;
+	color: #1489b8;
+}
+
+label{
+    text-align: right;
+    font-size: 24px;
+    font-family: monospace, serif;
+	color: #1489b8;
+}
+
+input[type] {
+      width: 90%;
+	display: block;
+      min-padding: 2em;
+	min-height: 3em;
+	  outline-radius: 25px;
+	margin: 20px;
+      border: 2px solid #fff;
+      border-radius: 2em;
+      background: #302c33;;
+      color: #fff;
+      font-family: monospace, serif;
+      letter-spacing: 0.05em;
+      font-size: 18px;
+	text-align: center;
+}
+
+input[type]:focus {
+	transition-duration: 500ms;
+	border: 15px solid #1489b8;
+}
+body {
+	margin: 0;
+	font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+	background: #3b4465;
+}
+
+.button{
+	border-radius: 12px;
+	outline: solid;
+	outline-color: #b0edff;
+	padding: 12 px;
+	min-width: 200px;
+	min-height: 35px;
+	border-color: #b0edff;
+    border: 12px;
+	background-color: #b0edff;
+	font-weight: bold;
+	font-size: 1.5em;
+    color: #1489b8;
+}
+
+.button:hover{
+	transition-duration: 500ms;
+	
+	outline-color: #1489b8;
+}
